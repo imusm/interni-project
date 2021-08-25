@@ -1,0 +1,135 @@
+.formBody{
+    background-color: rgba(17,17,17,255)
+    ;
+}
+.Register{
+    padding: 20px;
+    height: 60px;
+    width: 250px;
+    display:inline-flex;
+    justify-content: space-between;
+}
+
+.formfotter{
+    display: inline-flex;
+}
+.rightlogincolm{
+    
+    padding: 15px;
+    width:300px;
+    
+    
+    
+
+    
+    border-radius: 5px;
+    background-color:rgba(0,0,0,.7215686274509804);
+}
+.bgimg{
+
+    background-image: url(../backimg.jpeg); 
+    position: relative;
+    
+}
+
+
+
+.layer{
+    background-color: rgba(0,0,0,.5803921568627451);
+    height: 100%;
+}
+
+
+.userinput{
+    background-Color: rgba(0,0,0,.5803921568627451);
+    color: white;
+    padding: 2px;
+    border-Radius:4px
+}
+.passworedinput{
+    background-Color: rgba(0,0,0,.5803921568627451);
+    color: white;
+    padding: 2px;
+    border-Radius: 4px
+}
+.loginbtn{
+
+ width: 80%;
+ height: 80px; 
+  margin-Left: 20px;
+ border-Radius: 10px;
+ background-Color: #040404;
+color: white;
+}
+.formbody{
+    display: inline-flex;
+}
+@media(min-width: 800px){
+    .formbody{
+        flex-flow: row;
+    }
+}
+@media(max-width: 800px){
+    .formbody{
+        flex-flow: column;
+    }
+}
+
+
+.rightcol{
+    align-items: baseline;
+    align-items: center;
+    
+}
+@media(min-width:768px){
+    .rightcontainer{
+        margin-top: 25%;
+       padding-left: 30%;
+       
+    }
+}
+@media(min-width:320px,){
+    .rightcontainer{
+        margin-top: 25%;
+        margin-left: 2%;
+        padding-bottom: 20px;
+       
+    }
+}
+@media(min-width:768px){
+    .leftcontainer{
+        padding-top: 25%;
+       padding-left: 5%;
+       
+    }
+}
+@media(min-width:300px){
+    .leftcontainer{
+        padding-top: 25%;
+        padding-left: 5%;
+        padding-right: 5%;
+       
+    }
+}
+.copyright{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 1%;
+    padding-top: 3px;
+    margin-top: 1%;
+}
+.copyright p{
+
+font-size: 12px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    
+}
+.aqua{
+    text-decoration: none!important;
+    color: #1ecad3; 
+}

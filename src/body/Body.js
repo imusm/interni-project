@@ -1,11 +1,10 @@
-import React from "react"
-import img from 
+import React from "react";
+import LoginForm from "../body/loginForm/loginForm";
+import "./body.css";
+import Rightcom from "./loginForm/testform/rightcol";
+import Leftcolm from "./loginForm/testform/leftcolm";
 
-const Body=()=>{
-    return(
-        <div>
-            <img src="file:///home/hassan/Desktop/project2.jpeg" alt="example"/>
-        </div>
-    )
-}
-export default Body
+const Body = () => {
+  return <LoginForm />;
+};
+export default Body;
