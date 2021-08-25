@@ -1,0 +1,18 @@
+
+.bgimg{
+
+    background-image: url(../body/backimg.jpeg); 
+    position: relative;
+    
+    height: 100vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.layer{
+    background-color: rgba(0,0,0,.5803921568627451);
+    height: 100%;
+}

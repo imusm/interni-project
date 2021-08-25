@@ -1,11 +1,20 @@
 import React from "react"
-import img from 
+import LoginForm from "../body/loginForm/loginForm"
+import"./body.css"
 
 const Body=()=>{
     return(
-        <div>
-            <img src="file:///home/hassan/Desktop/project2.jpeg" alt="example"/>
-        </div>
+        
+            <LoginForm />
+            
+
+            
+            
+
+            
+            
+            
+        
     )
 }
 export default Body
