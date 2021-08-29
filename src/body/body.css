@@ -4,8 +4,13 @@
     background-image: url(../body/backimg.jpeg); 
     position: relative;
     
+<<<<<<< HEAD
     height: 100%;
     background-position: 100%;
+=======
+    height: 100vh;
+    background-position: 50%;
+>>>>>>> d4fdc8a69786470cb71b1b422500e0a70a5a11ca
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,8 +20,11 @@
 .layer{
     background-color: rgba(0,0,0,.5803921568627451);
     height: 100%;
+<<<<<<< HEAD
 }
 .loginbtn{
     width:150px;
     height: 50px;
+=======
+>>>>>>> d4fdc8a69786470cb71b1b422500e0a70a5a11ca
 }
