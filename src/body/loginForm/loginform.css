@@ -9,7 +9,6 @@
     display:inline-flex;
     justify-content: space-between;
 }
-<<<<<<< HEAD
 
 .formfotter{
     display: inline-flex;
@@ -38,7 +37,7 @@
 .layer{
     background-color: rgba(0,0,0,.5803921568627451);
     height: 100%;
-}
+    width: 100%;}
 
 
 .userinput{
@@ -134,10 +133,4 @@ font-size: 12px;
     text-decoration: none!important;
     color: #1ecad3; 
 }
-=======
-.loginbtn{
-     width:"200px";
-    color: white; 
-    background-color: #1ccad2;
-}
->>>>>>> d4fdc8a69786470cb71b1b422500e0a70a5a11ca
+
